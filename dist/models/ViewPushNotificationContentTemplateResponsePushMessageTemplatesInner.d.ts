@@ -1,0 +1,20 @@
+import { ListPushNotificationContentTemplatesResponsePushMessageTemplatesInnerTemplate } from './ListPushNotificationContentTemplatesResponsePushMessageTemplatesInnerTemplate';
+export declare class ViewPushNotificationContentTemplateResponsePushMessageTemplatesInner {
+    'templateName'?: string;
+    'template'?: ListPushNotificationContentTemplatesResponsePushMessageTemplatesInnerTemplate;
+    'pushMessagePreview'?: ListPushNotificationContentTemplatesResponsePushMessageTemplatesInnerTemplate;
+    static readonly discriminator: string | undefined;
+    static readonly attributeTypeMap: Array<{
+        name: string;
+        baseName: string;
+        type: string;
+        format: string;
+    }>;
+    static getAttributeTypeMap(): {
+        name: string;
+        baseName: string;
+        type: string;
+        format: string;
+    }[];
+    constructor();
+}
