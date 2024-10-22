@@ -14,7 +14,7 @@
     "openapi-generator"
   ],
   "license": "Unlicense",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
